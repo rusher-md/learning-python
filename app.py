@@ -5,4 +5,4 @@ print(f"my name is {name.upper()}" if name.upper() == 'HAMZA' else 'error' )
 #     print(f"my name is {name.upper()}")
 # else:
 #     print('error')
-print("yes")
+print("yesf")

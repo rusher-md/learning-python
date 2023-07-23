@@ -22,6 +22,7 @@ print((lambda: b, lambda: a)[a < b]())
 # Python practice
 
 Python program to add two numbers
+
 Maximum of two numbers in Python
 Python Program for factorial of a number
 Python Program for simple interest
