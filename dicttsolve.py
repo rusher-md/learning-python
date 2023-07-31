@@ -66,7 +66,7 @@ for key in reversed(dict):
 print("The reversed order dictionary ", dict2)
 
 
-============================Solution=============================
+# ========================================Solution==============================================
 print("------------------------------------------------------------------------\n\n\n")
 
 my_dict = {'key1': 'R7' , 'key2': 'is', 'key3': 'better', 'key4': 'in', 'key5': 'madrid', 'key6': 'not', 'key7': 'in', 'key8': 'manchester', 'key9': 'the', 'key10': 'goat'}
