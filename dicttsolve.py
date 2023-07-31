@@ -66,5 +66,35 @@ for key in reversed(dict):
 print("The reversed order dictionary ", dict2)
 
 
+============================Solution=============================
+print("------------------------------------------------------------------------\n\n\n")
 
+my_dict = {'key1': 'R7' , 'key2': 'is', 'key3': 'better', 'key4': 'in', 'key5': 'madrid', 'key6': 'not', 'key7': 'in', 'key8': 'manchester', 'key9': 'the', 'key10': 'goat'}
+
+# find the length
+print("length is : ", len(my_dict))
+
+# first element remove
+my_dict.pop('key1')
+print("removed the first element >> \n", my_dict)
+
+# add element in the middle of dict
+my_dict['key5'] = "middle element"
+print("Adding to middle element\n", my_dict)
+
+#print all elements of the dictionary
+print("Printing all elements in the dictinary\n")
+for key in my_dict:
+    print(key, my_dict[key])
+
+#print all keys of the dictionary
+print("printing all keys:\n", my_dict.keys())
+
+# print all values of the dict and convert them into a list
+print("print all values:\n", my_dict.values())
+my_list = list(my_dict.values())
+print('convert dict values to list >>>',my_list)
+
+#reverse the above list
+print(my_list[::-1])
 
