@@ -69,7 +69,7 @@ print("The reversed order dictionary ", dict2)
 # ========================================Solution==============================================
 print("------------------------------------------------------------------------\n\n\n")
 
-my_dict = {'key1': 'R7' , 'key2': 'is', 'key3': 'better', 'key4': 'in', 'key5': 'madrid', 'key6': 'not', 'key7': 'in', 'key8': 'manchester', 'key9': 'the', 'key10': 'goat'}
+ my_dict = {'key1': 'R7' , 'key2': 'is', 'key3': 'better', 'key4': 'in', 'key5': 'madrid','key6': 'not', 'key7': 'in', 'key8': 'manchester', 'key9': 'the', 'key10': 'goat'}
 
 # find the length
 print("length is : ", len(my_dict))
@@ -97,4 +97,18 @@ print('convert dict values to list >>>',my_list)
 
 #reverse the above list
 print(my_list[::-1])
+
+
+dict = {'key2': 'is', 'key3': 'better',}
+a = list(dict.keys())[0]
+print(a)
+
+b = (dict[a])
+
+dict[a]
+print(a,b)
+
+
+
+
 
