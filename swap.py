@@ -15,8 +15,8 @@ print(main_list)
 main_list.pop()
 print(main_list)
 
-main_list.insert(0, last_element)
-print(main_list)
+ main_list.insert(0, last_element)
+ print(main_list)
 
-main_list.append(first_element)
-print(main_list)
+ main_list.append(first_element)
+ print(main_list)
