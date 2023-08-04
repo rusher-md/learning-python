@@ -4,6 +4,7 @@
 # convert the inputs into a tuple
 # delete the last and middle value of the list
 # check if the entered values are numeric type else display error
+value = input('enter the values')
 
 print('a', 'b', 'c')
 

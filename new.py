@@ -1,4 +1,5 @@
-ages =  [19, 'red', 26, 23, 'age', 'yes', 12, 13.13 ,14]
+ages = [19, 'red', 26, 23, 'age', 'yes', 12, 13.13, 14]
+print(type(ages))
 new = 'red'
 ages.insert(4, new)
 print(ages)
