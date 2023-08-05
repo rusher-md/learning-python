@@ -1,0 +1,1 @@
+mylist = ['intel core', 'nvidia', 'red', 'gear', 'bella', 'ciao',]
