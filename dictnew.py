@@ -10,7 +10,7 @@
 #
 # tokyo = 'rio'
 # print(tokyo)
-# print(f"{red}\\\'{tokyo}\'")
+print(f"{red}\\\'{tokyo}\'")
 #
 # new = (red+tokyo)
 # # print(new)
