@@ -43,3 +43,14 @@ print(nested_List)
 # find the length of the nested list
 my_length = len(nested_List)
 print(my_length)
+
+
+ # Print all elements of the last added nested list
+
+new_dict = nested_List[-1]
+print(new_dict)
+
+
+
+
+
