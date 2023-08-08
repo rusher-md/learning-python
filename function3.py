@@ -10,10 +10,10 @@ def my_pair(key1,value,dictionary):
     print(dictionary)
 
 def call():
-    my_print(1)
-    myList3 = my_list('my_list2')
+    my_print(my1=1)
+    myList3 = my_list(my2='my_list2')
     print(myList3)
-    my_pair('red', 1, {})
+    my_pair(key1='red', value=1, dictionary={})
 
 
 call()
