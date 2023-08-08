@@ -19,10 +19,15 @@ nested_List = [{1: '2', 2: '3'}, [1, 24], [12, 3, 4], 'adnan']
 
 nested_List.append('mustang')
 print(nested_List)
-
 # Delete the middle element of the nested list
-nested_List.pop(2)
-print(nested_List)
+nested_List2 = len(nested_List)
+print(nested_List2)
+
+nested_List3 = nested_List2 // 2
+print(nested_List3, 'jkjkjk')
+
+nested_List.pop(nested_List3)
+print(nested_List3)
 
 # add an element of integer type to the end of the nested list
 
@@ -45,11 +50,16 @@ my_length = len(nested_List)
 print(my_length)
 
 
- # Print all elements of the last added nested list
+# Print all elements of the last added nested list
 
-new_dict = nested_List[-1]
-print(new_dict)
+new_dict2 = nested_List.insert(6, 'new element')
+print(nested_List)
 
+new_dict3 = nested_List[-1]
+print(new_dict3)
+
+for element in new_dict3:
+    print(element)
 
 
 
