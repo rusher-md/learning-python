@@ -19,12 +19,12 @@ def add_two_numbers(num1, num2):
 def pass_arguments(name1, name2):
     print(name1, name2)
 
-<<<<<<< HEAD
-=======
+
 
 var1 = 'adnan'
 var2 = 'adnan'
 pass_arguments(var1, var2)
 
->>>>>>> 734c9a5f5643659ce8cedaed5fa0ceb4165f77d1
+
 add_two_numbers(12, 13)
+
