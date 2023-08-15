@@ -24,13 +24,17 @@ def my_print(new_list, new_string, new_tuple):
 
 
 def call():
-    new_list = tuple(first_list())
+    new_list = first_list()
+    new_tuple = my_tuple()
+    new_string = my_string()
+    if len(new_list) > 10 and len(new_tuple) > 10 and len(new_string) > 10:
+        converted_list = tuple(new_list)
+        converted_string = list([new_string])
+        converted_tuple = str(new_tuple)
+        print(converted_list, converted_string, converted_tuple)
+    else:
+        my_print(new_list, new_string, new_tuple)
 
-    new_string = list([my_string()])
-
-    new_tuple = str(my_tuple())
-
-    my_print(new_list, new_string, new_tuple)
 
 
 call()
