@@ -4,7 +4,7 @@
 # and = {'x': 'X', 'f':'F', 'g':'G', ..... }
 
 
-my_list = [i for i in range(10) if i % 2 == 0]
+my_list = [i for i in range(30) if i % 2 == 0]
 print(my_list)
 
 # Create a dict using comp that takes values from the below list as keys and values as its upper case.
