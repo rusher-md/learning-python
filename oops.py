@@ -8,8 +8,8 @@
 
 # Class is a collection of Objects
 
-# Objects (real world entities) 
-# 1. functions/methods/behaviour 2. Properties (color/speed/look)state 3. Identity is a unique name
+# Objects (real-world entities) 
+# 1. functions/methods/behavior 2. Properties (color/speed/look)state 3. Identity is a unique name
 
 # class
 
@@ -37,7 +37,7 @@ s = str('sajhdb')
 # The Python __init__ Method
 
 
-class Dog():
+class Dog:
     # class attribute
     attr1 = 'mammal'
 
@@ -55,3 +55,27 @@ dog2 = Dog('tom')
 
 dog1.speak()
 dog2.speak()
+
+
+class Subject:
+
+    # instance attribute
+    def __init__(self, attr1, attr2):
+        self.attr1 = attr1
+        self.attr2 = attr2
+
+obj = Subject('maths', 'science')
+print(obj.attr1, obj.attr2)
+
+
+# What is self
+
+class check:
+    
+    def __init__(self):
+        print("address of self :", id(self))
+    
+obj = check()
+obj1 = check()
+print(f"address of obj {id(obj)}")
+print(f"address of obj {id(obj1)}")
