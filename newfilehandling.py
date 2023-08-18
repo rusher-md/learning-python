@@ -6,21 +6,27 @@
 # delete_file(new_filename)
 # Use docstrings for every function definition
 
+import os
 
 
 def handling():
     '''This Function create read append and rename the handling '''
-    with open('handling.txt', 'a') as file:
+    whandling.txt', 'a') as file:
         data = file.write('append data')
-
-    file = open('handling.txt', 'a')
-    file.write('added new data')
+    )
     file.close()
 
+    file.write('added new data')
+    # os.rename('handling.txt', 'newhandling.txt') cant change the name of txt file but .py name is changing succesfully
+#     os.rename('filehandling.py', 'newfilehandling.py') working properly
+ith
+open('
+    # os.remove('handling.txt')  # working properly
+
+    file = open('handling.txt', 'a'
 
 handling()
 print(handling.__doc__)
-
 
 
 
