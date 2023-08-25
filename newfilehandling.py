@@ -11,19 +11,20 @@ import os
 
 def handling():
     '''This Function create read append and rename the handling '''
-    whandling.txt', 'a') as file:
-        data = file.write('append data')
-    )
-    file.close()
+    with open('handling.txt', 'r') as file:
+        data = file.read()
+        print(data)
 
+
+    os.rename('filehandling.py', 'newfilehandling.py')
+
+    os.remove('handling.txt')  # working properly
+
+    file = open('handling.txt', 'a')
     file.write('added new data')
-    # os.rename('handling.txt', 'newhandling.txt') cant change the name of txt file but .py name is changing succesfully
-#     os.rename('filehandling.py', 'newfilehandling.py') working properly
-ith
-open('
-    # os.remove('handling.txt')  # working properly
+    file.close()
+    os.rename('handling.txt', 'newhandling.txt')
 
-    file = open('handling.txt', 'a'
 
 handling()
 print(handling.__doc__)
