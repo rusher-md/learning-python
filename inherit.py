@@ -8,6 +8,7 @@ class Vehicle(object):
     def Display(self):
         print(self.name, "inside vehicle class")
 
+
 # create vehicle class objects
 vehicle1 = Vehicle('vehicle1 name')
 vehicle2 = Vehicle('vehicle2 name')
